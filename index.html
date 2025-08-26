@@ -1,0 +1,201 @@
+Oleg, [26.08.2025 13:17]
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ROOFLEX — Wyroby z blachy: parapety, gąsiory, śniegołapy</title>
+  <style>
+    :root{--bg:#f6f7fb;--card:#ffffff;--text:#111827;--muted:#6b7280;--brand:#2563eb;--brand2:#1e40af;--ok:#059669;--warn:#d97706}
+    *{box-sizing:border-box} html,body{margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif; background:var(--bg); color:var(--text); line-height:1.5}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;backdrop-filter:saturate(180%) blur(12px); background:rgba(246,247,251,.8); border-bottom:1px solid #e5e7eb; z-index:10}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px}
+    .logo .mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand2)); color:white;font-weight:900}
+    .lang{display:flex;gap:8px}
+    .lang button{border:1px solid #e5e7eb;background:#fff;border-radius:8px;padding:8px 10px;cursor:pointer}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;padding:28px 0}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 16px rgba(17,24,39,.06)}
+    h1{font-size:28px;margin:0 0 10px}
+    .muted{color:var(--muted)}
+    .cta{display:flex;gap:12px;margin-top:14px}
+    .btn{appearance:none;border:0;border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:600}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff}
+    .btn.ghost{background:#fff;border:1px solid #e5e7eb}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr 1fr}}
+    @media (max-width:640px){.grid{grid-template-columns:1fr}}
+    .product{display:flex;flex-direction:column;gap:10px}
+    .thumb{height:120px;border-radius:12px;background:linear-gradient(135deg,#e0e7ff,#d1fae5);border:1px solid #e5e7eb}
+    .kicker{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--brand);text-transform:uppercase}
+    table{width:100%;border-collapse:collapse;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden}
+    th,td{padding:10px;border-bottom:1px solid #eef2f7;font-size:14px}
+    th{text-align:left;background:#f9fafb}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:800px){.two-col{grid-template-columns:1fr}}
+    form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media (max-width:700px){form .row{grid-template-columns:1fr}}
+    input,select,textarea{width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:10px;background:#fff}
+    textarea{min-height:120px}
+    footer{margin:40px 0 24px;color:#6b7280;text-align:center}
+    .badge{display:inline-block;background:#ecfdf5;color:#065f46;border:1px solid #a7f3d0;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700}
+    .hint{font-size:12px;color:#6b7280}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="nav">
+        <div class="logo"><div class="mark">R</div> ROOFLEX</div>
+        <div class="lang"><button class="active">PL</button><button>UK</button></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card">
+          <h1>Parapety, gąsiory, śniegołapy — szybko i solidnie</h1>
+          <p class="muted">Wykonujemy elementy z blachy według standardowych wymiarów i indywidualnych projektów. Zamów wycenę online i odbierz na miejscu.</p>
+          <div class="cta">
+            <a href="#order" class="btn primary">Zamów / Wycena</a>
+            <a href="#catalog" class="btn ghost">Zobacz katalog</a>
+          </div>
+
+Oleg, [26.08.2025 13:17]
+<div style="margin-top:12px"><span class="badge">Realizacja 1–3 dni (zależnie od zamówienia)</span></div>
+        </div>
+
+        <div class="card">
+          <div class="thumb" aria-hidden="true"></div>
+          <p class="muted" style="margin-top:10px">Dodaj swoje zdjęcia produktów – tutaj przykład miniatury.</p>
+          <ul class="muted" style="margin:0 0 0 18px">
+            <li>Standard: 120/150/180 cm (parapety)</li>
+            <li>Gąsior 15×15 i ozdobny 13×13 + zagięcie</li>
+            <li>Śniegołapy 9×13</li>
+            <li>Indywidualne projekty na wymiar</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="catalog" class="card" style="margin-top:18px">
+        <div class="kicker">Katalog</div>
+        <h2 style="margin-top:6px">Nasze produkty</h2>
+        <div class="grid" style="margin-top:10px">
+          <article class="product">
+            <div class="thumb"></div>
+            <strong>Parapety (wewnętrzne / zewnętrzne)</strong>
+            <span class="muted">Szerokości standardowe: 120 / 150 / 180 cm. Inne wymiary — na zamówienie.</span>
+            <a href="#order" class="btn ghost">Wyceń</a>
+          </article>
+          <article class="product">
+            <div class="thumb"></div>
+            <strong>Gąsior dachowy (standard)</strong>
+            <span class="muted">Wymiar 15 × 15 cm. Możliwość wykonania na wymiar.</span>
+            <a href="#order" class="btn ghost">Wyceń</a>
+          </article>
+          <article class="product">
+            <div class="thumb"></div>
+            <strong>Gąsior ozdobny (figurowany)</strong>
+            <span class="muted">Standard 13 × 13 cm + zagięcie górne. Indywidualne wymiary na życzenie.</span>
+            <a href="#order" class="btn ghost">Wyceń</a>
+          </article>
+        </div>
+
+        <div style="margin-top:18px" class="two-col">
+          <div>
+            <h3 style="margin:0 0 8px">Standardowe wymiary</h3>
+            <table>
+              <thead>
+                <tr><th>Produkt</th><th>Wymiary</th><th>Uwagi</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Parapety</td><td>120 / 150 / 180 cm</td><td>Inne rozmiary na zamówienie</td></tr>
+                <tr><td>Gąsior standard</td><td>15 × 15 cm</td><td>Inne rozmiary na zamówienie</td></tr>
+                <tr><td>Gąsior ozdobny</td><td>13 × 13 cm + zagięcie</td><td>Inne rozmiary na zamówienie</td></tr>
+                <tr><td>Śniegołapy</td><td>9 × 13 cm</td><td>Realizacja szybka</td></tr>
+              </tbody>
+            </table>
+            <p class="hint" style="margin-top:6px">Podane wymiary przykładowe. Produkujemy według potrzeb.</p>
+          </div>
+
+          <div class="card">
+            <strong>Szybki kontakt</strong>
+            <p class="muted" style="margin:6px 0 10px">Napisz do nas przez komunikator lub zadzwoń.</p>
+            <div class="cta">
+              <a target="_blank" rel="noopener" class="btn ghost" href="https://wa.me/">WhatsApp</a>
+              <a target="_blank" rel="noopener" class="btn ghost" href="https://t.me/">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="order" class="card" style="margin-top:20px">
+        <div class="kicker">Zamówienie / Wycena</div>
+        <h2 style="margin-top:6px">Formularz zamówienia</h2>
+
+        <!-- По умолчанию mailto: замените на форму (Formspree) если нужно -->
+        <form action="mailto:twoj.email@rooflex.pl" method="POST" enctype="text/plain">
+          <div class="row">
+            <div>
+              <label>Imię i nazwisko</label>
+              <input name="name" required placeholder="Jan Kowalski" />
+            </div>
+            <div>
+              <label>Telefon</label>
+              <input name="phone" required placeholder="+48 ..." />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label>Email</label>
+              <input name="email" type="email" placeholder="email@example.com" />
+            </div>
+            <div>
+
+Oleg, [26.08.2025 13:17]
+<label>Produkt</label>
+              <select name="product">
+                <option>Parapety</option>
+                <option>Gąsior dachowy (standard)</option>
+                <option>Gąsior ozdobny (figurowany)</option>
+                <option>Śniegołapy</option>
+                <option>Zamówienie indywidualne</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label>Wymiary / ilość</label>
+              <input name="dimensions" placeholder="np. 2 szt. 150 cm; 1 szt. 180 cm" />
+            </div>
+            <div>
+              <label>Kolor / materiał</label>
+              <input name="color" placeholder="np. RAL 8017, grubość 0,5" />
+            </div>
+          </div>
+          <div style="margin-top:10px">
+            <label>Dodatkowe informacje</label>
+            <textarea name="message" placeholder="Rysunek, termin realizacji, adres odbioru…"></textarea>
+          </div>
+          <div class="cta" style="margin-top:12px">
+            <button class="btn primary" type="submit">Wyślij zamówienie</button>
+            <button class="btn ghost" type="reset">Wyczyść</button>
+          </div>
+          <p class="hint" style="margin-top:8px">Wysyłając formularz, akceptujesz przetwarzanie danych w celu realizacji zamówienia.</p>
+        </form>
+      </section>
+
+      <footer>
+        <div>© <span id="year"></span> ROOFLEX. <span class="muted">Produkcja elementów z blachy na wymiar.</span></div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
